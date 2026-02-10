@@ -1,60 +1,76 @@
-/* Reset */
+/* Google-like clean font */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #0f172a;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #0b1120;
   color: #e5e7eb;
 }
 
-/* Layout */
-.container {
-  max-width: 900px;
-  margin: auto;
-  padding: 40px 20px;
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #020617, #0f172a);
 }
 
-/* Headings */
-h1 {
-  font-size: 2.5rem;
+.hero h1 {
+  font-size: 3rem;
   color: #38bdf8;
-  margin-bottom: 5px;
-}
-
-.subtitle {
-  font-size: 1.1rem;
-  color: #94a3b8;
-}
-
-/* Sections */
-section {
-  margin-top: 40px;
-}
-
-h2 {
-  color: #22d3ee;
   margin-bottom: 10px;
 }
 
-/* Card style */
+.hero p {
+  font-size: 1.2rem;
+  color: #94a3b8;
+}
+
+/* MAIN CONTENT */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #22d3ee;
+}
+
+/* CARD STYLE */
 .card {
-  background-color: #020617;
-  padding: 20px;
-  border-radius: 12px;
+  background: #020617;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-/* List */
-ul {
-  padding-left: 20px;
+/* SKILLS TAGS */
+.card span {
+  display: inline-block;
+  background: #0f172a;
+  color: #38bdf8;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 6px;
+  font-size: 14px;
 }
 
-li {
-  margin-bottom: 6px;
+/* PROJECT */
+.card h3 {
+  margin-top: 0;
+  color: #e5e7eb;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   color: #94a3b8;
   font-size: 14px;
+  border-top: 1px solid #020617;
 }
