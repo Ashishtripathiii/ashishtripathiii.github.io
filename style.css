@@ -1,0 +1,60 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Layout */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  color: #38bdf8;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #94a3b8;
+}
+
+/* Sections */
+section {
+  margin-top: 40px;
+}
+
+h2 {
+  color: #22d3ee;
+  margin-bottom: 10px;
+}
+
+/* Card style */
+.card {
+  background-color: #020617;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* List */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+  font-size: 14px;
+}
