@@ -5,12 +5,8 @@
     <title>Ashish Tripathi | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -50,13 +46,9 @@
             responsive, and user-friendly digital solutions.
         </p>
         <p>
-            I specialize in Web Development, Android App Development, and Web Design.
-            My goal is to create clean, efficient, and visually appealing websites and
-            applications that deliver smooth user experiences across all devices.
-        </p>
-        <p>
-            I continuously work on real-world projects, learn new technologies,
-            and improve my skills to stay aligned with industry standards.
+            I work in Web Development, Android App Development, and Web Design. My goal is to
+            create clean, efficient, and visually appealing products that perform well across
+            all devices.
         </p>
     </div>
 
@@ -70,37 +62,32 @@
     <h2 class="my-heading text-center">Services</h2>
 
     <div class="my-row">
-
         <div class="my-col">
             <div class="my-card">
-                <i class="fas fa-code"></i>
                 <h3 class="my-heading">Web Development</h3>
                 <p class="small-para">
-                    Responsive, fast, and functional websites using clean and maintainable code.
+                    Responsive and fast websites built with clean and maintainable code.
                 </p>
             </div>
         </div>
 
         <div class="my-col">
             <div class="my-card">
-                <i class="fas fa-paint-brush"></i>
                 <h3 class="my-heading">Web Design</h3>
                 <p class="small-para">
-                    Modern, visually appealing designs with clean layouts and intuitive UI.
+                    Modern, visually appealing designs focused on usability and user experience.
                 </p>
             </div>
         </div>
 
         <div class="my-col">
             <div class="my-card">
-                <i class="fas fa-mobile-alt"></i>
                 <h3 class="my-heading">App Development</h3>
                 <p class="small-para">
-                    Android applications with smooth performance and user-friendly interfaces.
+                    Android applications with smooth performance and clean user interfaces.
                 </p>
             </div>
         </div>
-
     </div>
 </section>
 
@@ -109,13 +96,12 @@
     <h2 class="my-heading text-center">My Projects</h2>
 
     <div class="my-row">
-
         <div class="my-col">
             <a href="#" class="links">
                 <div class="my-card">
                     <h3 class="my-heading">Blockora Infinity</h3>
                     <p class="small-para">
-                        Android puzzle game currently in closed testing on Google Play.
+                        Android puzzle game currently in closed testing.
                     </p>
                 </div>
             </a>
@@ -126,7 +112,7 @@
                 <div class="my-card">
                     <h3 class="my-heading">Web Projects</h3>
                     <p class="small-para">
-                        Multiple responsive websites built using HTML, CSS, and JavaScript.
+                        Multiple responsive websites using HTML, CSS, and JavaScript.
                     </p>
                 </div>
             </a>
@@ -135,42 +121,46 @@
         <div class="my-col">
             <a href="#" class="links">
                 <div class="my-card">
-                    <h3 class="my-heading">Practice & Learning</h3>
+                    <h3 class="my-heading">Practice Projects</h3>
                     <p class="small-para">
-                        Learning-based projects to explore new tools and technologies.
+                        Learning and experimentation projects to improve skills.
                     </p>
                 </div>
             </a>
         </div>
-
     </div>
 </section>
 
-<!-- ================= CONTACT ================= -->
+<!-- ================= CONTACT (FORM) ================= -->
 <section class="contact" id="contact">
-    <h2 class="my-heading text-center">Get In Touch</h2>
+    <h2 class="my-heading text-center">Contact</h2>
 
-    <div class="contact-content">
-        <div class="contact-details">
-            <p><i class="fas fa-envelope"></i>
-                <a href="mailto:tripathiashish3241@gmail.com" class="links">
-                    tripathiashish3241@gmail.com
-                </a>
-            </p>
+    <form class="contact-form"
+          action="mailto:tripathiashish3241@gmail.com"
+          method="post"
+          enctype="text/plain">
 
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/ashish-tripathi-ashish" target="_blank" class="footer-links">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://www.instagram.com/yugpurushkrishna?igsh=MjljZ2tzbm9uZG1o" target="_blank" class="footer-links">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/share/14SRTo492nf/" target="_blank" class="footer-links">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </div>
-        </div>
-    </div>
+        <input type="text" name="Name" placeholder="Your Name" class="form-controls" required>
+        <input type="email" name="Email" placeholder="Your Email" class="form-controls" required>
+        <textarea name="Message" placeholder="Your Message" class="form-controls" rows="5" required></textarea>
+
+        <button type="submit" class="btn common-btn">
+            Send Message
+        </button>
+    </form>
+
+    <p class="text-center">
+        Or email directly:
+        <a href="mailto:tripathiashish3241@gmail.com" class="links">
+            tripathiashish3241@gmail.com
+        </a>
+    </p>
+
+    <p class="text-center">
+        <a href="https://www.linkedin.com/in/ashish-tripathi-ashish" target="_blank" class="links">LinkedIn</a> |
+        <a href="https://www.instagram.com/yugpurushkrishna" target="_blank" class="links">Instagram</a> |
+        <a href="https://www.facebook.com/share/14SRTo492nf/" target="_blank" class="links">Facebook</a>
+    </p>
 </section>
 
 <!-- ================= FOOTER ================= -->
